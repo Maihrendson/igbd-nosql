@@ -67,11 +67,10 @@ Você também precisará baixar a base de dados das **Unidades Básicas de Saúd
 3. **Instale as dependências:**
 
    ```
-   pip install pandas pymongo geopandas requests
+   pip install -r requirements.txt
    
    ```
 
-   *(Opcional: você pode salvar essas dependências em um arquivo rodando `pip freeze > requirements.txt`)*
 
 4. **Prepare os dados:**
    Baixe o arquivo CSV do portal de dados abertos e salve-o na mesma pasta dos scripts com o nome `ubs.csv`.
